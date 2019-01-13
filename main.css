@@ -1,0 +1,124 @@
+
+@font-face {
+    font-family: 'KaushanScript-Regular'; /*a name to be used later*/
+    src: url('data/KaushanScript-Regular.otf'); /*URL to font*/
+    font-family: 'AlexBrush-Regular'; /*a name to be used later*/
+    src: url('data/AlexBrush-Regular.ttf'); /*URL to font*/
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+}
+
+ 
+ /*------navigation BAR---------------*/
+
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(36, 36, 36);
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+/*------------end of nav BAR------------*/
+  
+
+     .bodyHome {
+
+    background-image: url("data/truebackground.jpg") ;
+    background-size: cover;
+    background-repeat:   no-repeat;
+
+ }
+
+ .bodymenu {
+
+  background-image: url("data/menu.jpg") ;
+  background-size: cover;
+  background-repeat:   no-repeat;
+
+}
+.bodycontact {
+
+  background-image: url("data/contact.jpg") ;
+  background-size: cover;
+  background-repeat:   no-repeat;
+
+}
+.bodyaboutus {
+
+  background-image: url("data/aboutus.jpg") ;
+  background-size: cover;
+  background-repeat:   no-repeat;
+
+}
+  .hboa { 
+      text-align: center;
+      letter-spacing: 4px;
+      line-height: 1.5;
+      margin: auto;
+      width: 50%;
+      color:rgb(241, 241, 241);
+      text-shadow: 6px 6px rgb(48, 45, 38);
+      font-family: 'AlexBrush-Regular';
+      src: url('data/AlexBrush-Regular.ttf');
+      font-size: 1300%; 
+    
+
+  }
+  .hboa2 {
+    text-align: center;
+    color:rgb(224, 224, 224);
+    font-family: 'AlexBrush-Regular';
+    src: url('data/AlexBrush-Regular.ttf');
+    font-size: 150%; 
+}
+
+.hboa3 {
+    text-align: center;
+    letter-spacing: 10px;
+    line-height: 100px;
+    color:rgb(14, 14, 14);
+    font-family: 'AlexBrush-Regular';
+      src: url('data/AlexBrush-Regular.ttf');
+    text-shadow: 4px 4px rgb(153, 153, 153);
+    font-size: 300%; 
+}
+  
+.hboa4 {
+  text-align: center;
+  letter-spacing: 4px;
+  line-height: 2;
+  margin: auto;
+  width: 50%;
+  color:rgb(14, 14, 14);
+  font-family: 'AlexBrush-Regular';
+      src: url('data/AlexBrush-Regular.ttf');
+  font-size: 200%; 
+}
+.hboa5 {
+    text-align: center;
+    letter-spacing: 4px;
+    line-height: 2;
+    margin: auto;
+    width: 50%;
+    color:rgb(228, 227, 227);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-family: 'AlexBrush-Regular';
+      src: url('data/AlexBrush-Regular.ttf');
+    font-size: 300%; 
+  }
